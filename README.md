@@ -10,9 +10,9 @@ Raw_data contains multiple sessions, each session containing all data collected 
 
 - **Imu:** This folder contains IMU (Inertial Measurement Unit) data collected by the WHEELTEC N100.
 
-- **Labeled_img:** This folder includes a subset of images extracted from the Images folder, annotated using the labelme annotation tool.
+- **Labeled_img:** This folder includes a subset of images extracted from the Images folder, annotated using the annotation tool.
 
-- **Illumination:** The folder contains information recorded by the illuminance sensors..
+- **Illumination.txt:** The file contains information recorded by the illuminance sensors, the unit of illumination is Lux.
 ```bash
 -dataset-part-1
 |---session_1
@@ -20,7 +20,7 @@ Raw_data contains multiple sessions, each session containing all data collected 
 |      |---imu
 |      |---labeled_img
 |      |---raw_events
-|      |---illumination
+|      |---illumination.txt
 |---session_2
 |---session_3
 |......
